@@ -1,0 +1,284 @@
+{
+  "_comment": "This is the AfriNIC RDAP server.",
+  "header": {
+    "title": {
+      "undefined": "This is the AfriNIC RDAP server."
+    },
+    "description": {
+      "undefined": "This is the AfriNIC RDAP server."
+    },
+    "baseIris": [
+      "https://rdap.afrinic.net/rdap/ip/"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://visualdataweb.de/ontobench/ontology/13/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "https://rdap.afrinic.net/rdap/ip/"
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "label": "ORG-VNL1-AFRINIC",
+      "comment": {
+        "undefined": "ip network"
+      },
+      "annotations": {
+        "type": [
+          {
+            "identifier": "IP Type",
+            "language": "en",
+            "value": "ALLOCATED PA",
+            "type": "label"
+          }
+        ],
+        "handle": [
+          {
+            "identifier": "Handle",
+            "language": "en",
+            "value": "105.112.0.0 - 105.127.255.255",
+            "type": "label"
+          }
+        ],
+        "startAddress": [
+          {
+            "identifier": "Start Address",
+            "language": "en",
+            "value": "105.112.0.0",
+            "type": "label"
+          }
+        ],
+        "endAddress": [
+          {
+            "identifier": "End Address",
+            "language": "en",
+            "value": "105.127.255.255",
+            "type": "label"
+          }
+        ],
+        "parentHandle": [
+          {
+            "identifier": "Parent Handle",
+            "language": "en",
+            "value": "105.0.0.0 - 105.255.255.255",
+            "type": "label"
+          }
+        ],
+        "ipVersion": [
+          {
+            "identifier": "IP Version",
+            "language": "en",
+            "value": "v4",
+            "type": "label"
+          }
+        ],
+        "country": [
+          {
+            "identifier": "country",
+            "language": "en",
+            "value": "NG",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "status",
+            "language": "en",
+            "value": "active",
+            "type": "label"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "label": "OA38-AFRINIC",
+      "annotations": {
+        "language": [
+          {
+            "identifier": "language",
+            "language": "en",
+            "value": "en",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "status",
+            "language": "en",
+            "value": "active",
+            "type": "label"
+          }
+        ],
+        "roles": [
+          {
+            "identifier": "roles",
+            "language": "en",
+            "value": "administrative",
+            "type": "label"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "OA74-AFRINIC",
+      "annotations": {
+        "language": [
+          {
+            "identifier": "language",
+            "language": "en",
+            "value": "en",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "status",
+            "language": "en",
+            "value": "active",
+            "type": "label"
+          }
+        ],
+        "roles": [
+          {
+            "identifier": "roles",
+            "language": "en",
+            "value": "technical",
+            "type": "label"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "label": "ORG-VNL1-AFRINIC",
+      "annotations": {
+        "language": [
+          {
+            "identifier": "language",
+            "language": "en",
+            "value": "en",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "status",
+            "language": "en",
+            "value": "active",
+            "type": "label"
+          }
+        ],
+        "roles": [
+          {
+            "identifier": "roles",
+            "language": "en",
+            "value": "registrant",
+            "type": "label"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "label": "AJ28-AFRINIC",
+      "annotations": {
+        "language": [
+          {
+            "identifier": "language",
+            "language": "en",
+            "value": "en",
+            "type": "label"
+          }
+        ],
+        "status": [
+          {
+            "identifier": "status",
+            "language": "en",
+            "value": "active",
+            "type": "label"
+          }
+        ],
+        "roles": [
+          {
+            "identifier": "roles",
+            "language": "en",
+            "value": "administrative,technical",
+            "type": "label"
+          }
+        ]
+      }
+    }
+  ],
+  "property": [
+    {
+      "id": "10",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "20",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "30",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "40",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "10",
+      "label": "entity",
+      "domain": "1",
+      "range": "0"
+    },
+    {
+      "id": "20",
+      "label": "entity",
+      "domain": "2",
+      "range": "0"
+    },
+    {
+      "id": "30",
+      "label": "entity",
+      "domain": "3",
+      "range": "0"
+    },
+    {
+      "id": "40",
+      "label": "entity",
+      "domain": "4",
+      "range": "0"
+    }
+  ]
+}
